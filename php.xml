@@ -140,6 +140,7 @@
             <configuration_option name="phalcon.db.force_casting" value="0" />
             <configuration_option name="phalcon.orm.cast_on_hydrate" value="0" />
             <configuration_option name="phalcon.orm.column_renaming" value="1" />
+            <configuration_option name="phalcon.orm.disable_assign_setters" value="0" />
             <configuration_option name="phalcon.orm.enable_implicit_joins" value="1" />
             <configuration_option name="phalcon.orm.enable_literals" value="1" />
             <configuration_option name="phalcon.orm.events" value="1" />
@@ -147,6 +148,7 @@
             <configuration_option name="phalcon.orm.ignore_unknown_columns" value="0" />
             <configuration_option name="phalcon.orm.late_state_binding" value="0" />
             <configuration_option name="phalcon.orm.not_null_validations" value="1" />
+            <configuration_option name="phalcon.orm.update_snapshot_on_save" value="1" />
             <configuration_option name="phalcon.orm.virtual_foreign_keys" value="1" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
@@ -196,10 +198,6 @@
             <configuration_option name="short_open_tag" value="" />
             <configuration_option name="smtp_port" value="25" />
             <configuration_option name="sql.safe_mode" value="" />
-            <configuration_option name="sqlsrv.ClientBufferMaxKBSize" value="10240" />
-            <configuration_option name="sqlsrv.LogSeverity" value="0" />
-            <configuration_option name="sqlsrv.LogSubsystems" value="0" />
-            <configuration_option name="sqlsrv.WarningsReturnAsErrors" value="1" />
             <configuration_option name="sys_temp_dir" value="" />
             <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
@@ -259,7 +257,6 @@
             <extension name="pdo_sqlsrv" />
             <extension name="phalcon" />
             <extension name="session" />
-            <extension name="sqlsrv" />
             <extension name="standard" />
             <extension name="tokenizer" />
             <extension name="wddx" />
