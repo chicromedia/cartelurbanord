@@ -51,6 +51,8 @@
       <artifact name="SQL Server" use="true" version="4.0.2206.100" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
+      <property name="databaseName" value="db.helpcenter" />
+      <property name="serverName" value="UFAMILIA" />
     </driver>
     <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
